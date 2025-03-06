@@ -1,0 +1,11 @@
+body {
+	margin: 0px auto;
+	overflow: hidden;
+}
+.controller.xbox {
+    background: url("https://github.com/Kataribe-Koumuten/gpv-ddr/blob/main/img/base.png");
+    background-repeat: no-repeat ;
+    background-position : center center ;
+    height: 300px;
+    width: 74px;
+}
