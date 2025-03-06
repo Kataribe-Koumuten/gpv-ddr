@@ -6,6 +6,43 @@ body {
     background: url("https://raw.githubusercontent.com/Kataribe-Koumuten/gpv-ddr/refs/heads/main/img/base.png");
     background-repeat: no-repeat ;
     background-position : center center ;
-    height: 300px;
-    width: 74px;
+    height: 74px;
+    width: 300px;
+}
+
+.xbox .button {
+    position:absolute;
+    top:0;
+    left:0;
+    height: 74px;
+    width: 300px;
+    z-index:100;
+}
+.xbox .bumper {
+    position:absolute;
+    top:0;
+    left:0;
+    height: 74px;
+    width: 300px;
+    z-index:100;
+}
+.xbox .right.bumper.pressed {
+    background: url("https://raw.githubusercontent.com/Kataribe-Koumuten/gpv-ddr/refs/heads/main/img/left.png");
+    background-repeat: no-repeat ;
+    background-position : center center ;
+}
+.xbox .left.bumper.pressed {
+    background: url("https://raw.githubusercontent.com/Kataribe-Koumuten/gpv-ddr/refs/heads/main/img/right.png");
+    background-repeat: no-repeat ;
+    background-position : center center ;
+}
+.xbox .x.button.pressed {
+    background: url("https://raw.githubusercontent.com/Kataribe-Koumuten/gpv-ddr/refs/heads/main/img/up.png");
+    background-repeat: no-repeat ;
+    background-position : center center;
+}
+.xbox .y.button.pressed {
+    background: url("https://raw.githubusercontent.com/Kataribe-Koumuten/gpv-ddr/refs/heads/main/img/down.png");
+    background-repeat: no-repeat ;
+    background-position : center center ;
 }
