@@ -82,20 +82,21 @@ body {
 .xbox .right.bumper.pressed {
     background: url("https://kataribe-koumuten.github.io/gpv-ddr/img/left.png");
     background-repeat: no-repeat ;
-    background-position : center center ;
+    background-position : 0 0 ;
+    transform: unset;
 }
 .xbox .left.bumper.pressed {
-    background: url("https://kataribe-koumuten.github.io/gpv-ddr/img/right.png");
+    background: url("https://kataribe-koumuten.github.io/gpv-ddr/img/down.png");
     background-repeat: no-repeat ;
-    background-position : center center ;
+    background-position : 0 0 ;
 }
 .xbox .x.button.pressed {
     background: url("https://kataribe-koumuten.github.io/gpv-ddr/img/up.png");
     background-repeat: no-repeat ;
-    background-position : center center;
+    background-position : 0 0;
 }
 .xbox .y.button.pressed {
-    background: url("https://kataribe-koumuten.github.io/gpv-ddr/img/down.png");
+    background: url("https://kataribe-koumuten.github.io/gpv-ddr/img/right.png");
     background-repeat: no-repeat ;
-    background-position : center center ;
+    background-position : 0 0 ;
 }
