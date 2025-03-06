@@ -10,6 +10,57 @@ body {
     width: 300px;
 }
 
+.xbox .triggers {
+    display:none;
+}
+
+.xbox .touchpad {
+    display:none;
+}
+
+.xbox .quadrant {
+    display:none;
+}
+
+.xbox .meta {
+    display:none;
+}
+
+.xbox .arrows {
+    display:none;
+}
+
+.xbox .sticks {
+    display:none;
+}
+
+.xbox .wheels {
+    display:none;
+}
+
+.xbox .dpad {
+    display:none;
+}
+
+.xbox .fstick {
+    display:none;
+}
+
+.xbox .abxy {
+    position:absolute;
+    top:0;
+    left:0;
+    height: 74px;
+    width: 300px;
+}
+.xbox .bumpers {
+    position:absolute;
+    top:0;
+    left:0;
+    height: 74px;
+    width: 300px;
+}
+
 .xbox .button {
     position:absolute;
     top:0;
