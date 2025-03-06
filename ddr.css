@@ -63,6 +63,7 @@ body {
 
 .xbox .button {
     position:absolute;
+    background:unset;
     top:0;
     left:0;
     height: 74px;
@@ -71,6 +72,7 @@ body {
 }
 .xbox .bumper {
     position:absolute;
+    background:unset;
     top:0;
     left:0;
     height: 74px;
